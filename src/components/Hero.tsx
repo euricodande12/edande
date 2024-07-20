@@ -1,7 +1,9 @@
 import { motion } from "framer-motion";
-
+import { lazy } from "react";
 import { styles } from "../style";
-import { ComputersCanvas } from "./canvas";
+const ComputersCanvas = lazy(() =>
+  import("./canvas").then(module => ({ default: module.ComputersCanvas}))
+)
 
 const Hero = () => {
   return (
