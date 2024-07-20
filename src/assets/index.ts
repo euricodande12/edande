@@ -6,6 +6,7 @@ import web from "./web.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import github from "./github.png";
+import live from "./live.png"
 
 import css from "./tech/css.png";
 import c from "./tech/c.png";
@@ -38,6 +39,7 @@ export {
   creator,
   mobile,
   github,
+  live,
   web,
   menu,
   close,
