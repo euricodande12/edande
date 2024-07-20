@@ -8,19 +8,20 @@ import {
   html,
   css,
   reactjs,
-  redux,
+  c,
   tailwind,
-  nodejs,
-  mongodb,
+  cSharp,
+  sqlServer,
   git,
   figma,
-  docker,
+  java,
   nust,
   sirgil,
   carrent,
   jobit,
   tripguide,
-  threejs,
+  bootstrap,
+  github,
 } from "../assets";
 
 import logo from "/logo.png"
@@ -61,6 +62,14 @@ const services = [
 
 const technologies = [
   {
+    name: "C",
+    icon: c,
+  },
+  {
+    name: "CSharp",
+    icon: cSharp,
+  },
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -73,44 +82,40 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
+    name: "Bootstrap",
+    icon: bootstrap,
   },
   {
     name: "figma",
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Git",
+    icon: git,
+  },
+  {
+    name: "GitHub",
+    icon: github,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Sql Server",
+    icon: sqlServer,
+  },
+  {
+    name: "JAVA",
+    icon: java,
   },
 ];
 
