@@ -17,6 +17,7 @@ const Contact = () => {
   const [open, setOpen] = useState(false);
   const [submitError, setSubmitError] = useState<string | null>(null);
   const formRef = useRef<HTMLFormElement | null>(null);
+  const [username, setUserName] = useState("");
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -72,6 +73,7 @@ const Contact = () => {
       )
       .then(() => {
         setLoading(false);
+        setUserName(form.name);
         setOpen(true);
         setSubmitError(null); // Reset the error state on successful submission
 
@@ -156,7 +158,7 @@ const Contact = () => {
         </motion.div>
       </div>
 
-      <FeedbackModal name={form.name} open={open && !submitError} setOpen={setOpen} />
+      <FeedbackModal name={username} open={open && !submitError} setOpen={setOpen} />
       {submitError && <ErrorModal error={submitError} open={open} setOpen={setOpen} />}
     </>
   );

@@ -5,6 +5,7 @@ import mobile from "./mobile.png";
 import web from "./web.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import github from "./github.png";
 
 import css from "./tech/css.png";
 import c from "./tech/c.png";
@@ -18,22 +19,25 @@ import reactjs from "./tech/reactjs.png";
 import java from "./tech/java.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import github from "./tech/github.png";
-import bootstrap from "./tech/bootstrap.png";
+import githubTech from "./tech/github.png";
+import bootstrap from "./tech/github.png";
 
 
 import nust from "./company/nust.png";
 import sirgil from "./company/sirgil-removebg.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import universityWebsite from "./university-website.png";
+import nikeLandingPage from "./nike-landing-page.png";
+import foodieExpress from "./foodie-express.png";
+import brakwaterAbattoir from "./brakwater-abattoir.png";
+import lodgeReservationSystem from "./lodge-reservation-system.png"
 
 export {
   logo,
   backend,
   creator,
   mobile,
+  github,
   web,
   menu,
   close,
@@ -49,11 +53,13 @@ export {
   java,
   tailwind,
   typescript,
-  github,
+  githubTech,
   bootstrap,
   nust,
   sirgil,
-  carrent,
-  jobit,
-  tripguide,
+  universityWebsite,
+  nikeLandingPage,
+  foodieExpress,
+  brakwaterAbattoir,
+  lodgeReservationSystem
 };

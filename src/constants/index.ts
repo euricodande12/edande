@@ -17,11 +17,13 @@ import {
   java,
   nust,
   sirgil,
-  carrent,
-  jobit,
-  tripguide,
+  universityWebsite,
+  foodieExpress,
   bootstrap,
-  github,
+  githubTech,
+  nikeLandingPage,
+  brakwaterAbattoir,
+  lodgeReservationSystem,
 } from "../assets";
 
 import logo from "/logo.png"
@@ -95,7 +97,7 @@ const technologies = [
   },
   {
     name: "GitHub",
-    icon: github,
+    icon: githubTech,
   },
   {
     name: "React JS",
@@ -160,97 +162,125 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
-
 const projects = [
   {
-    name: "Car Rent",
+    name: "University Website",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A simple yet elegant university website developed with HTML, CSS, and minimal JavaScript, utilizing Font Awesome for icons. This project showcases responsive design, clean layouts, and user-friendly navigation.",
     tags: [
       {
-        name: "react",
+        name: "Html",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: universityWebsite,
+    source_code_link: "https://github.com/euricodande12/university-website",
+    live_url_link: "https://euricodande12.github.io/university-website/",
   },
   {
-    name: "Job IT",
+    name: "Nike Landing Page",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This project showcases the integration of these powerful tools to create a responsive and visually appealing web application. Dive into the code and explore the functionalities that make this landing page stand out.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Typescript",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: nikeLandingPage,
+    source_code_link: "https://github.com/euricodande12/nike-landing-page",
+    live_url_link: "https://edan-landing-nike.netlify.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Foodie Express",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A dynamic and user-friendly food delivery app designed to bring your favorite meals right to your doorstep with speed and convenience. It offers a delightful user experience, ensuring that ordering food is as enjoyable as eating it.",
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Typescript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: foodieExpress,
+    source_code_link: "https://github.com/euricodande12/FoodieExpress",
+    live_url_link: "https://foodie-express-hazel.vercel.app/",
+  },
+  {
+    name: "Brakwater Abattoir",
+    description:
+      "A dynamic and user-friendly meat selling app designed to bring your favorite meats close to you. It offers a delightful user experience, ensuring that ordering meat is as enjoyable as eating it.",
+    tags: [
+      {
+        name: "Ionic",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Supabase",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: brakwaterAbattoir,
+    source_code_link: "https://github.com/sirgil-org/BrakwaterAbattoir",
+    live_url_link: "https://friendly-caramel-898ad0.netlify.app/login",
+  },
+  {
+    name: "Lodge Reservation System",
+    description:
+      "A dynamic and user-friendly lodge reservation system to simplify daily tasks. It offers a delightful and exciting user experience, ensuring that all the data about the customers are always available.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Supabase",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: lodgeReservationSystem,
+    source_code_link: "https://github.com/sirgil-org/lodge-reservation-system",
+    live_url_link: "https://lodge-reservation-system.vercel.app/",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
